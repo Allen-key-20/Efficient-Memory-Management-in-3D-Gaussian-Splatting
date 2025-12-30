@@ -9,6 +9,9 @@
 
 Our default, experiments were conducted on Ubuntu22.04 and cuda11.8
 ```shell
+git clone https://github.com/Allen-key-20/Efficient-Memory-Management-in-3D-Gaussian-Splatting.git --init --recursive
+cd Efficient-Memory-Management-in-3D-Gaussian-Splatting
+
 conda env create -n name python=3.10 -y
 conda activate name
 
@@ -56,3 +59,6 @@ Train the entire dataset. Train the default three datasets.
 ```shell
 python run_folder.py 
 ```
+### Note
+
+Our code is modified based on [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) . The simpleknn in the submodules folder is also from this project.
