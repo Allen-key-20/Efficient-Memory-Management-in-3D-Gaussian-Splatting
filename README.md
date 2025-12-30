@@ -1,4 +1,4 @@
-# Memory Efficient Gaussian Splatting via Dynamic Appearance Allocation
+# Efficient Memory Management in 3D Gaussian Splatting for Real-Time Rendering
 
 3D Gaussian Splatting (3DGS) has become a popular method for efficient and high-quality novel view synthesis. However, its training process demands excessive GPU memory, primarily due to uniform storage of high-order spherical harmonic coefficients and rapid increases in the number of Gaussians. To address this, we introduce a memory-efficient approach that dynamically adjusts spherical harmonic orders based on the expressive needs of each Gaussian and employs a saliency-based pruning strategy to remove redundant Gaussians. Our method reduces peak GPU memory usage by up to 32% while maintaining rendering quality comparable to the original approach. Experiments on benchmark datasets demonstrate the effectiveness of our approach.
 
@@ -62,3 +62,4 @@ python run_folder.py
 ### Note
 
 Our code is modified based on [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) . The simpleknn in the submodules folder is also from this project.
+
