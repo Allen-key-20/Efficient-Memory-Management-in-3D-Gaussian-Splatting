@@ -62,4 +62,6 @@ python run_folder.py
 ### Note
 
 Our code is modified based on [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) . The simpleknn in the submodules folder is also from this project.
+An initial open-source version of our method is already available, which demonstrates the core methodology and enables reproduction of the main experimental results.    To ensure code quality and usability, we are adopting a progressive open-source strategy: more complete and optimized implementations will be released as the development stabilizes.
+
 
